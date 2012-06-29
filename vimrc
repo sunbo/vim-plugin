@@ -17,13 +17,14 @@ set hlsearch
 set tabstop=4
 set noexpandtab
 
-colorscheme blackboard
-set t_Co=256
+"colorscheme blackboard
+"set t_Co=256
 
 filetype plugin indent on
 
 set noerrorbells
 set visualbell t_vb=
+set noautoindent
 
 "显示tab
 set list listchars=tab:▸\ ,eol:¬,trail:-
