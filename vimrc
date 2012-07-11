@@ -18,7 +18,8 @@ set tabstop=4
 set noexpandtab
 
 "colorscheme blackboard
-"set t_Co=256
+colorscheme Tomorrow-Night
+set t_Co=256
 
 filetype plugin indent on
 
@@ -30,3 +31,5 @@ set noautoindent
 set list listchars=tab:▸\ ,eol:¬,trail:-
 " 把 F8 映射到 启动NERDTree插件
 map <F8> :NERDTree<CR>
+
+set lines=42 columns=142
